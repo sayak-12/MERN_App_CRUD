@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import ReactLogo from "../assets/react.svg";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -60,7 +61,7 @@ export const Home = () => {
             target="_blank"
             title="Visit the GitHub profile of the developer"
           >
-            Chirag Chakraborty
+            Sayak Raha
           </a>
           . Please visit the GitHub repository if you like this and it would be
           nice of you to give it a star. Thank you!

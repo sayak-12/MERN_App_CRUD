@@ -67,7 +67,7 @@ const get_one_contact = (req, res) => {
     })
     .catch((err) =>
       res.json({
-        msg: "Culdn't fetch contact details :/",
+        msg: "Couldn't fetch contact details :/",
         error: err,
       })
     );
